@@ -26,7 +26,7 @@ Follow steps 1 and 3 from [Assembly Setup](#assembly-setup). The Z80 extension f
 
 ## Building
 
-[//]: # (TODO setup CI for a easier build and decoupling of build files)
+[//]: # (TODO setup CI for a easier build and decoupling of build/target files)
 
 Once all the assembly setup is done, you can now build a program such as [hello.asm](asm/28day-tutorial/hello.asm). If you have not setup Brass.exe to your environmental path, move that file into the file/directory that you will be working in. In this case, 28day-tutorial. Open up PowerShell or CMD and make sure you are in the same directory as your program and run the following command replacing hello with your program name:
 
@@ -39,3 +39,7 @@ There should be a new file with .8xp as the extension. This is the file that is 
 > If the screen went black, simply press the `ON` button and you will be greeted with a RAM cleared screen. This is due to an error in your program. When loading the programs onto your calculator, I will highly recommend archiving all other programs so they will not get deleted if the program crashes.
 
 With TI-BASIC programs, you can simply drag them into the calculator on the left screen and go `PRGM` to find and run it by pressing `Enter` twice (No need for `Asm(`).
+
+## Further Resources
+
+[Learn IT 83+ assembly in 28 days](https://taricorp.gitlab.io/83pa28d/) - Beginner friendly tutorial
