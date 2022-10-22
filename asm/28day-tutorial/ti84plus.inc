@@ -402,6 +402,7 @@ _GrBufCpy	EQU 486Ah
 _GrphCirc	EQU 47D7h
 
 _HLTimes9	EQU 40F9h
+_HomeUp 	EQU 4558h
 _HorizCmd	EQU 48A6h
 _HTimesL	EQU 4276h
 
